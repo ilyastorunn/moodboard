@@ -26,33 +26,36 @@ import album25 from "../assets/albums/25.webp";
 
 export default function Music() {
   return (
-    <div className="bg-[#F7F7F7] flex items-center h-screen overflow-x-auto">
-      <div className="flex min-w-max ml-[160px]">
-        <img src={album1} alt="" className="w-[200px] h-[200px] hover:rounded-full" />
-        <img src={album2} alt="" className="w-[200px] h-[200px]" />
-        <img src={album3} alt="" className="w-[200px] h-[200px]" />
-        <img src={album4} alt="" className="w-[200px] h-[200px]" />
-        <img src={album5} alt="" className="w-[200px] h-[200px]" />
-        <img src={album6} alt="" className="w-[200px] h-[200px]" />
-        <img src={album7} alt="" className="w-[200px] h-[200px]" />
-        <img src={album8} alt="" className="w-[200px] h-[200px]" />
-        <img src={album9} alt="" className="w-[200px] h-[200px]" />
-        <img src={album10} alt="" className="w-[200px] h-[200px]" />
-        <img src={album11} alt="" className="w-[200px] h-[200px]" />
-        <img src={album12} alt="" className="w-[200px] h-[200px]" />
-        <img src={album13} alt="" className="w-[200px] h-[200px]" />
-        <img src={album14} alt="" className="w-[200px] h-[200px]" />
-        <img src={album15} alt="" className="w-[200px] h-[200px]" />
-        <img src={album16} alt="" className="w-[200px] h-[200px]" />
-        <img src={album17} alt="" className="w-[200px] h-[200px]" />
-        <img src={album18} alt="" className="w-[200px] h-[200px]" />
-        <img src={album19} alt="" className="w-[200px] h-[200px]" />
-        <img src={album20} alt="" className="w-[200px] h-[200px]" />
-        <img src={album21} alt="" className="w-[200px] h-[200px]" />
-        <img src={album22} alt="" className="w-[200px] h-[200px]" />
-        <img src={album23} alt="" className="w-[200px] h-[200px]" />
-        <img src={album24} alt="" className="w-[200px] h-[200px]" />
-        <img src={album25} alt="" className="w-[200px] h-[200px]" />
+    <div className="bg-[#F7F7F7] h-screen">
+      <h1 className="text-[24px] font-bold pl-[40px] pt-[40px]">music.</h1>
+      <div className="flex items-center overflow-x-auto h-[calc(100%-96px)]">
+        <div className="flex min-w-max ml-[160px]">
+          <img src={album1} alt="" className="w-[200px] h-[200px]" />
+          <img src={album2} alt="" className="w-[200px] h-[200px]" />
+          <img src={album3} alt="" className="w-[200px] h-[200px]" />
+          <img src={album4} alt="" className="w-[200px] h-[200px]" />
+          <img src={album5} alt="" className="w-[200px] h-[200px]" />
+          <img src={album6} alt="" className="w-[200px] h-[200px]" />
+          <img src={album7} alt="" className="w-[200px] h-[200px]" />
+          <img src={album8} alt="" className="w-[200px] h-[200px]" />
+          <img src={album9} alt="" className="w-[200px] h-[200px]" />
+          <img src={album10} alt="" className="w-[200px] h-[200px]" />
+          <img src={album11} alt="" className="w-[200px] h-[200px]" />
+          <img src={album12} alt="" className="w-[200px] h-[200px]" />
+          <img src={album13} alt="" className="w-[200px] h-[200px]" />
+          <img src={album14} alt="" className="w-[200px] h-[200px]" />
+          <img src={album15} alt="" className="w-[200px] h-[200px]" />
+          <img src={album16} alt="" className="w-[200px] h-[200px]" />
+          <img src={album17} alt="" className="w-[200px] h-[200px]" />
+          <img src={album18} alt="" className="w-[200px] h-[200px]" />
+          <img src={album19} alt="" className="w-[200px] h-[200px]" />
+          <img src={album20} alt="" className="w-[200px] h-[200px]" />
+          <img src={album21} alt="" className="w-[200px] h-[200px]" />
+          <img src={album22} alt="" className="w-[200px] h-[200px]" />
+          <img src={album23} alt="" className="w-[200px] h-[200px]" />
+          <img src={album24} alt="" className="w-[200px] h-[200px]" />
+          <img src={album25} alt="" className="w-[200px] h-[200px]" />
+        </div>
       </div>
     </div>
   );
