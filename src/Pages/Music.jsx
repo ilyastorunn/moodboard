@@ -26,8 +26,8 @@ import album25 from "../assets/albums/25.webp";
 
 export default function Music() {
   return (
-    <div className="bg-[#F7F7F7] h-screen">
-      <h1 className="text-[24px] font-bold pl-[40px] pt-[40px]">music.</h1>
+    <div className="bg-[#F7F7F7] h-screen overflow-y-hidden">
+      <h1 className="text-[24px] font-bold italic pl-[40px] pt-[20px]">music.</h1>
       <div className="flex items-center overflow-x-auto h-[calc(100%-96px)]">
         <div className="flex min-w-max ml-[160px]">
           <img src={album1} alt="" className="w-[200px] h-[200px]" />
